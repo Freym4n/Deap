@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".detalleCurso"
+    tools:showIn="@layout/activity_detalle_curso">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="40dp">
+
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:text="Estudiante 1"
+            android:textSize="15sp"
+            android:paddingTop="30dp"
+            android:paddingLeft="50dp" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:text="Nota 1"
+            android:textSize="15sp"
+            android:paddingTop="30dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:text="Estudiante n"
+            android:textSize="15sp"
+            android:paddingTop="30dp"
+            android:paddingLeft="50dp" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:text="Nota n"
+            android:textSize="15sp"
+            android:paddingTop="30dp"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

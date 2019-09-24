@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title=""
+        android:id="@+id/btnNuevaEntrega"
+        android:icon="@drawable/btn_nueva_entrega_foreground"/>
+    <item
+        android:title=""
+        android:id="@+id/btnAsistencias"
+        android:icon="@drawable/btn_asistencias_foreground"/>
+    <item
+        android:title=""
+        android:id="@+id/btnTalleres"
+        android:icon="@drawable/btn_calificacion_foreground" />
+    <item
+        android:title=""
+        android:id="@+id/btnCalendario"
+        android:icon="@drawable/btn_calendario_foreground"/>
+
+
+
+
+</menu>

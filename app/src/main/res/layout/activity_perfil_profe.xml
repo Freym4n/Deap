@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PerfilProfe">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="40dp">
+
+
+        <ImageView
+            android:src="@mipmap/profesor_foreground"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="50dp"
+            android:text="Profesor"
+            android:gravity="left"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@color/colorSemiFondo"
+        android:layout_margin="40dp">
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contrasenaA"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/inputpassA"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/campo_redondo"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contrasenaN"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/inputpassN"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/campo_redondo"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+        <Button
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/boton_morado"
+            android:textColor="@color/colorFondo"
+            android:text="@string/actualizar"
+            android:layout_marginBottom="50dp"/>
+
+
+
+        
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+   </ScrollView>
+</LinearLayout>

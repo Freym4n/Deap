@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFDFA"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@color/colorAccent">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/saludo"
+        android:textColor="@color/colorFondo"
+        android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:src="@mipmap/ic_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:textSize="15sp"
+        android:text="@string/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/campo_redondo"
+            android:paddingLeft="30dp"
+            android:paddingRight="40dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+            android:id="@+id/txtContrasena"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contrasena"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_marginBottom="20dp"/>
+
+
+    <EditText
+        android:id="@+id/inputpass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@drawable/campo_redondo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="30dp"/>
+
+
+    <Button
+        android:id="@+id/btnInicioSesion"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="toCursos"
+        android:text="@string/iniciar_sesion"
+        android:textColor="#000"
+        android:textSize="11dp"/>
+</LinearLayout>
+
+
